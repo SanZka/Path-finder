@@ -1,0 +1,77 @@
+.grid-container {
+  margin: 10% ;
+}
+
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 2px;
+}
+
+/* Light Mode */
+.light-mode .node {
+  outline: 1px solid rgb(175, 216, 248);
+}
+
+.light-mode .node-wall {
+  background-color: rgb(12, 53, 71);
+}
+
+.light-mode .node-start {
+  background-color: green;
+}
+
+.light-mode .node-finish {
+  background-color: red;
+}
+
+/* Dark Mode */
+.dark-mode .node {
+  outline: 1px solid rgb(175, 216, 248);
+}
+
+.dark-mode .node-wall {
+  background-color: #606060;
+}
+
+.dark-mode .node-start {
+  background-color: #00ff00;
+}
+
+.dark-mode .node-finish {
+  background-color: #ff0000;
+}
+
+.image-container {
+  border: #ff0000 4pc;
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+
+.image-container img {
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  
+}
+
+.line {
+  display: grid; /* Make it a grid container */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 25px;
+  grid-gap: 0;
+  position: relative; /* Make it relative to contain the absolute background image */
+  height: 100vh; /* Set the height to 100vh or a fixed value */
+  width: 100vw; /* Set the width to 100vw or a fixed value */
+  background-image: url('../assets/images/vancouver.png');
+  background-size: cover;
+  background-position: center;
+}
+
+

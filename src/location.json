@@ -1,0 +1,33 @@
+{
+    "currentLocation": {
+      "x": 5,
+      "y": 5
+    },
+    "destinationLocations": [
+      {
+        "name": "Queen Elizabeth Park",
+        "x": 20,
+        "y": 11
+      },
+      {
+        "name": "Golf Club",
+        "x": 0,
+        "y": 15
+      },
+      {
+        "name": "Memorial South Park",
+        "x": 33,
+        "y": 16
+      },
+      {
+        "name": "E-49 Avenue",
+        "x": 39,
+        "y": 20
+      },
+      {
+        "name": "Trout Lake Community Centre",
+        "x": 44,
+        "y": 3
+      }
+    ]
+  }
